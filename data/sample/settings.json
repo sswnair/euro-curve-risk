@@ -1,0 +1,7 @@
+{
+  "name": "Sample euro government bond portfolio",
+  "curve_name": "Synthetic curve in the format of the ECB's AAA curve",
+  "key_tenors": [1, 2, 3, 5, 7, 10, 15, 20, 30],
+  "shock_sizes_bp": {"parallel": 225, "short": 350, "long": 200},
+  "shock_sizes_note": "the Basel Committee's euro sizes as recalibrated in July 2024"
+}
